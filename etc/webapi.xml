@@ -8,4 +8,16 @@
             <resource ref="anonymous" />
         </resources>
     </route>
+    <route method="GET" url="/V1/admin/hello/:name">
+        <service class="Dima\Hello\Api\HelloInterface" method="hello"/>
+        <resources>
+            <resource ref="Dima_Hello::rest_api" />
+        </resources>
+    </route>
+    <route method="GET" url="/V1/customer/hello/:name">
+        <service class="Dima\Hello\Api\HelloInterface" method="hello"/>
+        <resources>
+            <resource ref="self" />
+        </resources>
+    </route>
 </routes>
