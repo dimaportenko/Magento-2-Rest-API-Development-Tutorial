@@ -1,6 +1,6 @@
 # Magento 2 Rest API Development video series 
 
-### #0 - PhpStorm Magento 2 Plugin Setup
+### #0 - Magento 2 PhpStorm Plugin Setup
 YouTube video - https://youtu.be/eCbEEfYreFU  
 
 ### #1 - GET method endpoint example
