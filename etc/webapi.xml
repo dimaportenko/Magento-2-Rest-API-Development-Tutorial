@@ -20,4 +20,11 @@
             <resource ref="self" />
         </resources>
     </route>
+
+    <route method="GET" url="/V1/dima/customer">
+        <service class="Dima\Hello\Api\HelloInterface" method="getUser"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
 </routes>

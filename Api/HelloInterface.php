@@ -11,4 +11,9 @@ interface HelloInterface {
      * @return string
      */
     public function hello($name);
+
+    /**
+     * @return \Dima\Hello\Api\Data\UserInterface
+     */
+    public function getUser();
 }
